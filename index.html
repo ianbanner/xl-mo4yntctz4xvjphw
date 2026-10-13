@@ -20,3 +20,4 @@ h+=`<details><summary>${esc(n.title)}<div class="meta">${esc(n.author)} · ${esc
 <div class="btns"><button onclick="copy(${i},this)">Copy note</button>${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">Original</a>`:''}<a href="${esc(n.doc_url)}" target="_blank" rel="noopener">Google Doc</a></div><pre>${esc(n.full_note_text)}</pre></details>`});
 document.getElementById('list').innerHTML=h;document.getElementById('count').textContent=c+' of '+N.length+' notes'}
 document.getElementById('q').oninput=draw;draw();</script></body></html>
+<!-- t 1791919958 -->
